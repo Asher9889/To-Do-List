@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #1f4037;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 60%;
+  max-width: 460px;
+  margin: 80px auto 0;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #fff;
+    
+}
+
+.header-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  
+}
+
+.header-items p {
+  font-weight: 800;
+  font-size: 20px;
+
+}
+
+.header-items img {
+  width: 35px;
+  margin-left: 10px;
+
+}
+
+.search-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.search-box input {
+ height: 2rem;
+ border-radius: 1rem;
+ outline: none;
+ font-size: 15;
+ width: 100% ;
+ padding-left: 10px;
+ border: none;
+ background-color: rgb(239, 235, 235);
+
+}
+
+.search-box button {
+  width: 110px;
+  min-width: 25px;
+  background-color: red;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  margin-left: -20px;
+  cursor: pointer;
+  margin-right: 30px;
+
+}
+
+
+.task {
+ margin-top: 20px;
+ margin-left: 30px;
+
+} 
+
+ul{
+  position: relative;
+
+}
+
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word;
+ 
+}
+
+ul li::before {
+  
+  content:url("images/unchecked1.png");
+  position: relative;
+  right: 25px;
+  top: 5px;
+  background-color: white;
+  /* background-image: url(images/unchecked.png);
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  background-size: cover;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+   */
+  
+  
+  
+} 
+
+span {
+  position: absolute;
+  right: 0px;
+  opacity: 0.7;
+  
+}
+
+span:hover{
+ cursor: pointer;
+ background-color: rgb(228, 217, 217);
+ /* padding: 1px; */
+ height: 24px;
+ width: 24px ;
+ border-radius: 50%;
+opacity: 1;
+
+}
+
+
+
+
+
